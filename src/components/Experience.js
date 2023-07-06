@@ -1,2 +1,4 @@
 import React from 'react';
-import './Experience.css';
+import '../styles/Experience.css';
+
+export default 'Experience';
