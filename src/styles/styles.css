@@ -1,4 +1,8 @@
 /* Global Styles */
+:root  {
+  --text-color: #fbfdff;
+  --background-color: #1b1f24;
+}
 * {
   margin: 0;
   padding: 0;
