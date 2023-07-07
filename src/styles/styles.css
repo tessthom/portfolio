@@ -1,7 +1,13 @@
 /* Global Styles */
 :root  {
-  --text-color: #fbfdff;
-  --background-color: #1b1f24;
+  --white: #fbfdff;
+  --black: #1b1e23;
+  --off-black: #2b2f3a;
+  --primary-mint: #00c399;
+  --secondary-coral: #f97664;
+  --accent-blue: #4b9fff;
+  --accent-yellow: #ffd155;
+  --accent-purple: #c89afd;
 }
 * {
   margin: 0;
@@ -13,13 +19,16 @@ body {
   font-family: 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--black);
+  color: var(--white);
 }
-code {
+ul  {
+  list-style-type: none;
+}
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 /* commented out rules from create-react-app App.css */
 /* .App {
   text-align: center;

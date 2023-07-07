@@ -3,7 +3,7 @@ import '../styles/Skills.css';
 
 function Skills() {
   return (
-    <div>
+    <article id='skills' className='skills-container'>
       <h3>Skills</h3>
       <ul>
         <li>HTML5</li>
@@ -16,8 +16,8 @@ function Skills() {
         <li>SQL</li>
         <li>Git</li>
       </ul>
-    </div>
-  )
+    </article>
+  );
 }
 
 export default Skills;

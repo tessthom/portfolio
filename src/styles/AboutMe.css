@@ -1,4 +1,23 @@
+.about-container  {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-mint);
+  color: var(--black);
+  margin: 2em 0;
+  padding: 2em;
+}
+.about-text  {
+  width: 60%;
+}
+.about-text h3  {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 .profile-img  {
-  width: 300px;
-  
+  width: 40%;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  shape-outside: circle(50%);
+  margin-left: 1rem;
 }

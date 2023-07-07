@@ -5,10 +5,10 @@ function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer>
-      <p>&copy; {currentYear} Tess Thomas</p>
+    <footer id='footer'>
+      <p>Copyright &copy; {currentYear} Tess Thomas. All rights reserved.</p>
     </footer>
-  )
+  );
 }
 
 export default Footer;

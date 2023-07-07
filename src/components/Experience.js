@@ -3,10 +3,10 @@ import '../styles/Experience.css';
 
 function Experience() {
   return (
-    <div className="Experience">
+    <article id='experience' className="experience-container">
       <h3>Experience</h3>
       <p>Here is my experience.</p>
-    </div>
+    </article>
   );
 }
 
