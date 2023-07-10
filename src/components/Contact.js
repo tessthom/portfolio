@@ -1,15 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Contact.css';
-
-const useState = React.useState;
 
 function Contact() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log(name, email);
+    setName('');
+    setEmail('');
+    setMessage('');
+  }
+
+  const setThankYou = () => {
+    alert(`Thanks for reaching out, ${name}. I'll be in touch at ${email} shortly!`);
   }
 
   return (
@@ -17,12 +22,12 @@ function Contact() {
       <h3>Get in Touch</h3>
       <form onSubmit={handleSubmit}>
         <label htmlFor='name'>Name</label>
-        <input type='text' id='name' name='name' placeholder='Name' />
+        <input value={name} onChange={e => setName(e.target.value)} type='text' id='name' name='name' placeholder='Name' />
         <label htmlFor='email'>Email</label>
-        <input type='email' id='email' name='email' placeholder='Email' />
+        <input value={email} onChange={e => setEmail(e.target.value)} type='email' id='email' name='email' placeholder='Email' />
         <label htmlFor='message'>Message</label>
-        <textarea id='message' name='message' placeholder='Message'></textarea>
-        <button type='submit'>Submit</button>
+        <textarea value={message} onChange={e => setMessage(e.target.value)} id='message' name='message' placeholder='Message'></textarea>
+        <button onClick={setThankYou} type='submit'>Submit</button>
       </form>
     </article>
   )

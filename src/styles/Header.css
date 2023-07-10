@@ -1,0 +1,54 @@
+.header-text  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: max-content;
+  margin: 4rem auto;
+  gap: 1rem;
+}
+
+.inline-container  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+h1  {
+  font-size: 3rem;
+  background-image: linear-gradient(120deg, var(--white), #FDE7AA, var(--primary-mint));
+  background-clip: text;
+  color: transparent;
+  width: fit-content;
+  max-width: 100vw;
+  line-height: 100%;
+}
+
+@keyframes blink  {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.cursor-box h2  {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cursor-box h2::after  {
+  content: '';
+  width: 0.2rem;
+  height: 2rem;
+  background-color: var(--primary-mint);
+  display: inline-block;
+  animation: blink 1.2s steps(1) infinite;
+}

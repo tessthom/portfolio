@@ -1,4 +1,9 @@
 .projects-container  {
-  background-color: var(--secondary-coral);
   color: var(--black);
+}
+#projects h3  {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: var(--secondary-coral);
 }

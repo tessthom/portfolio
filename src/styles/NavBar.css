@@ -1,23 +1,234 @@
-.navbar  {
-  margin: 0;
-  padding: 1em 0;
-  list-style-type: none;
+/* .navbar  {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  height: 15vh;
+  line-height: 15vh;
 }
+
 .navbar img  {
-  width: 10%;
+  width: 10vw;
+}
+.list-container  {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 2;
 }
 .nav-list  {
-  margin: 0;
-  padding: 0;
-  display: flex;
+  /* margin: 0;
+  padding: 0; */
+  /*display: flex;
 }
 .nav-item  {
-  margin-left: 2em;
+  cursor: pointer;
+  height: 100%;
+  transition: .5s;
+  margin: 0 1.5em;
+  flex-shrink: 2;
 }
 .nav-link  {
   text-decoration: none;
   color: var(--white);
+  display: inline-block;
+  width: 100%;
+}
+label.navbar-toggle  {
+  border: 1px solid red;
+}
+.navbar-toggle  {
+  display: none;
+  height: min-content;
+  margin: 10px 0 0;
+  cursor: pointer;
+  order: 3;
+}
+.bar  {
+  width: 40px;
+  height: 5px;
+  margin-right: 0;
+  margin-bottom: 10px;
+  background: var(--white);
+  border-radius: 10%;
+  transition: .6s;
+}
+input  {
+  display: none;
+}
+input:checked ~ .navbar .nav-list  {
+  transform: translateY(0);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+input:checked .navbar .navbar-toggle  {
+  margin-top: 1rem;
+}
+input:checked ~ .navbar .navbar-toggle .bar:nth-child(1)  {
+  position: absolute;
+  transform: rotate(45deg);
+}
+input:checked ~ .navbar .navbar-toggle .bar:nth-child(2)  {
+  display: none;
+}
+input:checked ~ .navbar .navbar-toggle .bar:nth-child(3)  {
+  transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px)  {
+  ul.nav-list  {
+    display: grid;
+    position: absolute;
+    background: var(--off-black);
+    width: 100%;
+    top: 10vh;
+    left: 0;
+    transform: translateY(-200%);
+    transition: .5s;
+    z-index: 2;
+  }
+  .navbar .navbar-toggle  {
+    display: grid;
+  }
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 15vh;
+  line-height: 15vh;
+}
+
+.navbar img {
+  width: 4rem;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  cursor: pointer;
+  height: 100%;
+  transition: 0.5s;
+  margin: 0 1.5em;
+  flex-shrink: 2;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.navbar-toggle {
+  display: none;
+  height: min-content;
+  margin: 10px 0 0;
+  cursor: pointer;
+  order: 3;
+}
+
+.navbar-toggle .bar  {
+  width: 3.5rem;
+  height: 4px;
+  margin-left: 2rem;
+  margin-bottom: 12px;
+  transition: .6s;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar  {
+    display: flex;
+  }
+  .navbar-toggle  {
+    display: grid;
+    background-color: var(--black);
+  }
+  .bar {
+    width: 40px;
+    height: 5px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    background: var(--white);
+    border-radius: 10%;
+    transition: 0.6s;
+  }
+  
+  .menu-open .nav-list {
+    display: grid;
+    position: absolute;
+    background: var(--black);
+    width: 100%;
+    top: 15vh;
+    left: 0;
+    transform: translateY(-150%);
+    transition: 0.6s;
+    z-index: 2;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    text-align: right;
+  }
+
+  .menu-open .nav-item  {
+    margin: 0;
+    padding-right: 2rem;
+  }
+
+  body.dark .nav-item a.nav-link:active  {
+    background-color: var(--off-black);
+  }
+
+  body.light a.nav-link, body.light .nav-item, body.light .navbar-toggle  {
+    background-color: var(--white);
+    color: var(--black);
+  }
+
+  body.light .navbar-toggle .bar  {
+    background-color: var(--off-black);
+  }
+  
+  .menu-open .navbar-toggle .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+  }
+  
+  .menu-open .navbar-toggle .bar:nth-child(2) {
+    display: none;
+  }
+  
+  .menu-open .navbar-toggle .bar:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
+  .nav-list {
+    display: none;
+    position: absolute;
+    background: var(--off-black);
+    width: 100%;
+    top: 10vh;
+    left: 0;
+    transform: translateY(-200%);
+    transition: 0.6s;
+    z-index: 2;
+  }
+
+  .menu-open .nav-list {
+    transform: translateY(0);
+    transition: transform 0.6s;
+  }
+
+  .menu-open .nav-item:active  {
+    background-color: var(--off-black);
+  }
 }

@@ -1,6 +1,7 @@
 .about-container  {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: var(--primary-mint);
   color: var(--black);
   margin: 2em 0;
@@ -8,16 +9,14 @@
 }
 .about-text  {
   width: 60%;
-}
-.about-text h3  {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  line-height: 1.5;
+  margin-right: 1.5em;
 }
 .profile-img  {
   width: 40%;
   border-radius: 50%;
   object-fit: cover;
   float: right;
+  shape-margin: 2rem;
   shape-outside: circle(50%);
-  margin-left: 1rem;
 }
