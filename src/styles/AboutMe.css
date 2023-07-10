@@ -5,7 +5,7 @@
   background-color: var(--primary-mint);
   color: var(--black);
   margin: 2em 0;
-  padding: 2em;
+  padding: 4rem 3rem;
 }
 .about-text p  {
   line-height: 1.5;
@@ -16,7 +16,7 @@
 .profile-img  {
   width: 33%;
   float: right;
-  /* margin-left: 1em; */
+  margin-left: 1em;
   border-radius: 50%;
   -webkit-shape-outside: circle();
   shape-outside: circle(50%);
