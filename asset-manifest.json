@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9449e9df.css",
-    "main.js": "/portfolio/static/js/main.7d4bde0d.js",
+    "main.css": "/portfolio/static/css/main.d27fa7bd.css",
+    "main.js": "/portfolio/static/js/main.83985710.js",
     "static/media/petalsHome.png": "/portfolio/static/media/petalsHome.5901f559e5c44df918ae.png",
-    "static/media/headCrop.png": "/portfolio/static/media/headCrop.c91304b81e44664bf898.png",
     "static/media/resumeBuilder.png": "/portfolio/static/media/resumeBuilder.ab697d380424a7053284.png",
+    "static/media/headCropBW.png": "/portfolio/static/media/headCropBW.ac2373a77a37c85a8f9e.png",
     "static/media/sun.svg": "/portfolio/static/media/sun.36eb04ae8ab0aa4ce07f205a42d63007.svg",
     "static/media/ttLogo2B2F3A.svg": "/portfolio/static/media/ttLogo2B2F3A.44975b28735cc42568eb80f706ca4c3d.svg",
     "static/media/ttLogoFBFDFF.svg": "/portfolio/static/media/ttLogoFBFDFF.81687edc246858c7bc40a10cd23da968.svg",
     "index.html": "/portfolio/index.html",
     "static/media/moon.svg": "/portfolio/static/media/moon.2798c263fc53c908e3cf82a4e429126f.svg",
-    "main.9449e9df.css.map": "/portfolio/static/css/main.9449e9df.css.map",
-    "main.7d4bde0d.js.map": "/portfolio/static/js/main.7d4bde0d.js.map"
+    "main.d27fa7bd.css.map": "/portfolio/static/css/main.d27fa7bd.css.map",
+    "main.83985710.js.map": "/portfolio/static/js/main.83985710.js.map"
   },
   "entrypoints": [
-    "static/css/main.9449e9df.css",
-    "static/js/main.7d4bde0d.js"
+    "static/css/main.d27fa7bd.css",
+    "static/js/main.83985710.js"
   ]
 }
