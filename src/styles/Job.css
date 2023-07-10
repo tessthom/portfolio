@@ -1,0 +1,26 @@
+.job-container  {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+}
+.job-header  {
+  display: flex;
+  align-items: baseline;
+}
+.job-header h4  {
+  font-size: 1.5rem;
+  margin-right: 2rem;
+  margin-bottom: 0.8rem;
+  padding-right: 2rem;
+  border-right: 2px solid var(--white);
+}
+.job-container p  {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.job-container ul  {
+  list-style: disc;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  line-height: 160%;
+}

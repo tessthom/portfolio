@@ -7,6 +7,8 @@ function Project(props) {
       <div className="project-text">
         <h4>{props.title}</h4>
         <p>{props.description}</p>
+        <br />
+        <p>{props.skills}</p>
       </div>
       <div className="thumbnail-box">
         <a target='_blank' href={props.href}>

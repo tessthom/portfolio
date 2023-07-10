@@ -1,4 +1,28 @@
 .experience-container  {
-  background-color: var(--accent-yellow);
-  color: var(--black);
+  /* background-color: var(--accent-yellow); */
+  color: var(--white);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#experience h3  {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+svg.yellow-line  {
+    width: 20rem;
+    height: 0.5rem;
+    position: absolute;
+    top: 4rem;
+    align-self: center;
+}
+
+.jobs-box  {
+  display: grid;
+  grid-gap: 3rem;
 }

@@ -7,16 +7,19 @@
   margin: 2em 0;
   padding: 2em;
 }
-.about-text  {
-  width: 60%;
+.about-text p  {
   line-height: 1.5;
-  margin-right: 1.5em;
+
+  font-size: 1.1rem;
 }
+
 .profile-img  {
-  width: 40%;
-  border-radius: 50%;
-  object-fit: cover;
+  width: 33%;
   float: right;
-  shape-margin: 2rem;
+  /* margin-left: 1em; */
+  border-radius: 50%;
+  -webkit-shape-outside: circle();
   shape-outside: circle(50%);
+  clip-path: circle(50%);
+
 }

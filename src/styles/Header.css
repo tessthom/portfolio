@@ -1,10 +1,11 @@
 .header-text  {
+  max-width: max-content;
+  margin: 5rem auto;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: max-content;
-  margin: 4rem auto;
   gap: 1rem;
 }
 
@@ -16,7 +17,7 @@
 }
 
 h1  {
-  font-size: 3rem;
+  font-size: 3.5rem;
   background-image: linear-gradient(120deg, var(--white), #FDE7AA, var(--primary-mint));
   background-clip: text;
   color: transparent;
@@ -38,7 +39,7 @@ h1  {
 }
 
 .cursor-box h2  {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;

@@ -28,6 +28,7 @@ function Skills() {
           </div>
           <p>Node.js</p>
         </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-react" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -43,6 +44,7 @@ function Skills() {
           </div>
           <p>React</p>
         </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-javascript" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -54,6 +56,7 @@ function Skills() {
           </div>
           <p>JavaScript</p>
         </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -74,6 +77,7 @@ function Skills() {
           </div>
           <p>CSS3</p>
         </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-mongodb" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -84,6 +88,7 @@ function Skills() {
           </div>
           <p>MongoDB</p>
         </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-mysql" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -94,6 +99,7 @@ function Skills() {
           </div>
           <p>SQL</p>
         </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-git" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -109,6 +115,7 @@ function Skills() {
           </div>
           <p>Git</p>
         </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-figma" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -120,6 +127,33 @@ function Skills() {
           </div>
           <p>Figma</p>
         </div>
+
+        <div className='skill'>
+          <div className="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ux-circle" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path>
+              <path d="M7 10v2a2 2 0 1 0 4 0v-2"></path>
+              <path d="M14 10l3 4"></path>
+              <path d="M14 14l3 -4"></path>
+            </svg>
+          </div>
+          <p>UX</p>
+        </div>
+
+        <div className="skill">
+          <div className="icon-box">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-palette" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25"></path>
+              <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+              <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+              <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+            </svg>
+          </div>
+          <p>Design</p>
+        </div>
+
         <div className='skill'>
           <div className="icon-box">
             <svg className='skill-icon' xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-accessible" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

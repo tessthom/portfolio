@@ -1,121 +1,27 @@
-/* .navbar  {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  height: 15vh;
-  line-height: 15vh;
-}
-
-.navbar img  {
-  width: 10vw;
-}
-.list-container  {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  flex-shrink: 2;
-}
-.nav-list  {
-  /* margin: 0;
-  padding: 0; */
-  /*display: flex;
-}
-.nav-item  {
-  cursor: pointer;
-  height: 100%;
-  transition: .5s;
-  margin: 0 1.5em;
-  flex-shrink: 2;
-}
-.nav-link  {
-  text-decoration: none;
-  color: var(--white);
-  display: inline-block;
-  width: 100%;
-}
-label.navbar-toggle  {
-  border: 1px solid red;
-}
-.navbar-toggle  {
-  display: none;
-  height: min-content;
-  margin: 10px 0 0;
-  cursor: pointer;
-  order: 3;
-}
-.bar  {
-  width: 40px;
-  height: 5px;
-  margin-right: 0;
-  margin-bottom: 10px;
-  background: var(--white);
-  border-radius: 10%;
-  transition: .6s;
-}
-input  {
-  display: none;
-}
-input:checked ~ .navbar .nav-list  {
-  transform: translateY(0);
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-}
-input:checked .navbar .navbar-toggle  {
-  margin-top: 1rem;
-}
-input:checked ~ .navbar .navbar-toggle .bar:nth-child(1)  {
-  position: absolute;
-  transform: rotate(45deg);
-}
-input:checked ~ .navbar .navbar-toggle .bar:nth-child(2)  {
-  display: none;
-}
-input:checked ~ .navbar .navbar-toggle .bar:nth-child(3)  {
-  transform: rotate(-45deg);
-}
-
-@media screen and (max-width: 768px)  {
-  ul.nav-list  {
-    display: grid;
-    position: absolute;
-    background: var(--off-black);
-    width: 100%;
-    top: 10vh;
-    left: 0;
-    transform: translateY(-200%);
-    transition: .5s;
-    z-index: 2;
-  }
-  .navbar .navbar-toggle  {
-    display: grid;
-  }
-} */
-
 .navbar {
+  margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  height: 15vh;
+  flex-grow: 1;
+
+  height: 10rem;
   line-height: 15vh;
 }
 
 .navbar img {
   width: 4rem;
-}
-
-.list-container {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  margin-right: 2rem;
 }
 
 .nav-list {
-  display: flex;
   margin: 0;
   padding: 0;
   list-style: none;
+
+  display: flex;
+  align-items: center;
 }
 
 .nav-item {
@@ -149,17 +55,21 @@ input:checked ~ .navbar .navbar-toggle .bar:nth-child(3)  {
 
 @media screen and (max-width: 768px) {
   .navbar  {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, min-content) 1fr;
   }
   .navbar-toggle  {
+    justify-self: end;
     display: grid;
     background-color: var(--black);
   }
   .bar {
-    width: 40px;
+    width: 4rem;
     height: 5px;
     margin-right: 0;
     margin-bottom: 10px;
+
     background: var(--white);
     border-radius: 10%;
     transition: 0.6s;

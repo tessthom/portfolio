@@ -21,12 +21,18 @@ function Contact() {
     <article id='contact' className='contact-container'>
       <h3>Get in Touch</h3>
       <form onSubmit={handleSubmit}>
-        <label htmlFor='name'>Name</label>
-        <input value={name} onChange={e => setName(e.target.value)} type='text' id='name' name='name' placeholder='Name' />
-        <label htmlFor='email'>Email</label>
-        <input value={email} onChange={e => setEmail(e.target.value)} type='email' id='email' name='email' placeholder='Email' />
-        <label htmlFor='message'>Message</label>
-        <textarea value={message} onChange={e => setMessage(e.target.value)} id='message' name='message' placeholder='Message'></textarea>
+        <div className="field">
+          <label htmlFor='name'>Name</label>
+          <input value={name} onChange={e => setName(e.target.value)} type='text' id='name' name='name' />
+        </div>
+        <div className="field">
+          <label htmlFor='email'>Email</label>
+          <input value={email} onChange={e => setEmail(e.target.value)} type='email' id='email' name='email' />
+        </div>
+        <div className="field">
+          <label htmlFor='message'>Message</label>
+          <textarea value={message} onChange={e => setMessage(e.target.value)} id='message' name='message'></textarea>
+        </div>
         <button onClick={setThankYou} type='submit'>Submit</button>
       </form>
     </article>

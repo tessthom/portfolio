@@ -15,7 +15,8 @@ function Projects() {
         href='https://wcet.waketech.edu/abthomas3/web110/finalProject/index.html' 
         src={petalsHome} 
         alt='Landing page for Petals in the Park event' 
-        description='Landing, form, and confirmation pages for a fictional floral arrangement event'
+        description='Landing page, sign-up form, and confirmation page for a floral arrangement event.'
+        skills='HTML, CSS, Design, SEO, Accessibility'
       />
       <Project 
         title='BarKey' 
@@ -23,13 +24,16 @@ function Projects() {
         <img src="images/bkHomePage.png' 
         src={bkHomePage} 
         alt='Figma wireframe of home page for BarKey app' 
-        description='Figma wireframes for a WIP app that allows users to create and organize custom cocktail recipes, share them with friends or staff, set read and/or write permissions and search via tags or ingredients.'
+        description='Hi-fi wireframes for a WIP mobile app. BarKey allows users to create and organize custom cocktail recipes, share them with friends or staff, set read and/or write permissions and search via tags or ingredients.'
+        skills='UX Research, Wireframing, Prototyping, Design, Figma'
       />
       <Project 
         title='Resume Builder' 
         href='https://wcet.waketech.edu/abthomas3/WEB115/finalproject/finalproject.html' 
         src={resumeBuilder}
         alt='Form page for resume builder app' 
+        description='A dynamic form page that allows users to input their information, adding fields as needed, and then generates a formatted resume "on the fly".'
+        skills='Event-driven JavaScript, HTML, CSS, Design'
       />
     </article>
   );
