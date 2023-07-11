@@ -83,21 +83,15 @@ article  {
 
 /* Tablet layout */
 @media screen and (min-width: 768px) {
-
-  /* .main-container  {
-    grid-template-columns: repeat(2, 1fr);
+  .header-text  {
+    justify-content: flex-start;
   }
-  .column  {
-    grid-column: span 1;
-  } */
+  .cursor-box h2  {
+    width: min-content;
+  }
 }
 
 /* Desktop layout */
 @media screen and (min-width: 992px)  {
-  /* .main-container  {
-    grid-template-columns: repeat(12, 1fr);
-  }
-  .column  {
-    grid-column: span 2;
-  } */
+
 }
