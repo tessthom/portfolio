@@ -40,9 +40,12 @@ h1  {
 
 .cursor-box h2  {
   font-size: 1.6rem;
+  width: fit-content;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 0.25rem;
 }
 
 .cursor-box h2::after  {
@@ -51,5 +54,6 @@ h1  {
   height: 2rem;
   background-color: var(--primary-mint);
   display: inline-block;
+  align-self: flex-end;
   animation: blink 1.2s steps(1) infinite;
 }
